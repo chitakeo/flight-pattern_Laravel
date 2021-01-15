@@ -38,6 +38,8 @@ class RouteServiceProvider extends ServiceProvider
         $this->configureRateLimiting();
 
         $this->routes(function () {
+            \URL::forceScheme('https');
+            
             Route::prefix('api')
                 ->middleware('api')
                 ->namespace($this->namespace)
