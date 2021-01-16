@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/articles', 'App\Http\Controllers\ArticleController@index')->name('article.list');
+Route::get('/article/{id}', 'ArticleController@show')->name('article.show');
+Route::get('/top_page', 'App\Http\Controllers\TopPageController@index')->name('top_page.list');
