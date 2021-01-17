@@ -6,6 +6,6 @@
         <style>body {padding: 10px;}</style>
     </head>
     <body>
-        <h1>フライトパターン</h1>
+        <h1>フライト</h1>
     </body>
 </html>
