@@ -26,6 +26,7 @@ class TopPageController extends Controller
     public function create()
     {
         //
+        return view('input');
     }
 
     /**

@@ -18,5 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get('/articles', 'App\Http\Controllers\ArticleController@index')->name('article.list');
-Route::get('/article/{id}', 'ArticleController@show')->name('article.show');
 Route::get('/top_page', 'App\Http\Controllers\TopPageController@index')->name('top_page.list');
+Route::get('/input', 'App\Http\Controllers\TopPageController@create')->name('top_page.list');

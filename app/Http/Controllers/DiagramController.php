@@ -26,6 +26,7 @@ class DiagramController extends Controller
     public function create()
     {
         //
+        x
     }
 
     /**
