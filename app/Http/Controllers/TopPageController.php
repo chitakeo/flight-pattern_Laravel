@@ -14,8 +14,9 @@ class TopPageController extends Controller
      */
     public function index()
     {
-        $diagrams = Diagram::all();
-        return view('top' ,['diagrams' => $diagrams]);
+        //$diagrams = TopPageController::all();
+        $items = \DB::table('diagrams')->get();  
+        return view('top' ,['diagrams' => $items]);
         //
     }
 
