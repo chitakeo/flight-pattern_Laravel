@@ -8,8 +8,6 @@
         <style>body {padding: 10px;}</style>
     </head>
     <body>
-        <h1>ダイヤ自動生成サイト</h1>
-        <p class = "lead">ダイヤを入力してください</p>
         <form method="#" action="#">
             <p> 便名
                 <input name="textvalue" type="text">
@@ -86,6 +84,7 @@
         </form>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <a class = "btn btn-primary" href="/top_page">戻る</a>
     </body>
 
 </html>
